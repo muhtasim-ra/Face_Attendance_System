@@ -1,7 +1,6 @@
-Face Recognition Attendance System: A smart, real-time attendance system that uses computer vision to recognize faces and mark attendance automatically. Built with Python, OpenCV, and a local SQLite database for privacy and speed.🚀 FeaturesReal-Time Face Recognition: Detects and identifies students instantly using a webcam.Smart Attendance Logging: Automatically marks attendance and prevents "double marking" within a 30-second window.Local Database: Uses SQLite for instant data fetching (no internet required).Robust Image Handling: Supports PNG, JPG, and JPEG formats and auto-resizes images to fit the UI.Performance Optimized: Uses frame-skipping logic to run smoothly on standard laptops without lag.Graphical UI: Displays student details (Name, Major, Year) and a dynamic status dashboard (Active, Marked, Already Marked).🛠️ Tech 
+Face Recognition Attendance System: A smart, real-time attendance system that uses computer vision to recognize faces and mark attendance automatically. Built with Python, OpenCV, and a local SQLite database for privacy and speed.🚀 FeaturesReal-Time Face Recognition: Detects and identifies students instantly using a webcam.Smart Attendance Logging: Automatically marks attendance and prevents "double marking" within a 30-second window.Local Database: Uses SQLite for instant data fetching (no internet required).Robust Image Handling: Supports PNG, JPG, and JPEG formats and auto-resizes images to fit the UI.Performance Optimized: Uses frame-skipping logic to run smoothly on standard laptops without lag.Graphical UI: Displays student details (Name, Major, Year) and a dynamic status dashboard (Active, Marked, Already Marked).
 
-
-StackLanguage: Python 3.10Libraries: opencv-python, face_recognition, cvzone, sqlite3Database: SQLite (Local file)📂 Project StructureBashFaceRecog/
+FaceRecog/
 │
 ├── Resources/              # Graphics for the UI
 │   ├── background.png      # Main background template
